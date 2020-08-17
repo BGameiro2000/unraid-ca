@@ -22,7 +22,7 @@
   <Category>Productivity: Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <TemplateURL>https://github.com/BGameiro2000/unraid-ca/tree/master/trilium</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/zadam/trilium/stable/images/app-icons/png/256x256.png</Icon>
+  <Icon>https://media.githubusercontent.com/media/BGameiro2000/unraid-ca/master/trilium/icon.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
