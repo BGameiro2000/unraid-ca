@@ -8,4 +8,10 @@ This repository contains the xml files to the applications I maintain to Unraid 
 
 **Description:** Trilium Notes is a hierarchical note taking application with focus on building large personal knowledge bases.
 
-**Directory:** [trilium](trilium/)
+**Directory:** [Trilium](trilium/)
+
+### JupyterLab
+
+**Description:** JupyterLab is a web-based interactive development environment for Jupyter notebooks, code, and data. 
+
+**Directory:** [JupyterLab](jupyterlab/)
