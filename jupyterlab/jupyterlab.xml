@@ -26,7 +26,7 @@
   <WebUI>http://[IP]:[PORT:8888]</WebUI>
   <TemplateURL/>
   <Icon>https://media.githubusercontent.com/media/BGameiro2000/unraid-ca/master/jupyterlab/icon.png</Icon>
-  <ExtraParams/>
+  <ExtraParams>--env GITLAB_OMNIBUS_CONFIG="external_url 'http://unraid:9080/'"</ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1597689640</DateInstalled>
@@ -63,13 +63,20 @@
     </Volume>
     <Volume>
       <HostDir>/mnt/user/appdata/jupyterlab/config</HostDir>
-      <ContainerDir>/usr/share/jupyter/</ContainerDir>
+      <ContainerDir>/appdata</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Environment/>
+  <Environment>
+    <Variable>
+      <Value/>
+      <Name>PACKAGES</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
   <Labels/>
   <Config Name="Notebooks" Target="/opt/app/data" Default="/mnt/user/appdata/jupyterlab/notebooks" Mode="rw" Description="Container Path: /opt/app/data" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Packages" Target="PACKAGES" Default="" Mode="" Description="Install Arch Packages to add functionalities." Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="WebUI" Target="8888" Default="" Mode="tcp" Description="Container Port: 8888" Type="Port" Display="always" Required="true" Mask="false">9999</Config>
-  <Config Name="Appdata" Target="/usr/share/jupyter/" Default="/mnt/user/appdata/jupyterlab/config" Mode="rw" Description="Container Path: /usr/share/jupyter/" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/jupyterlab/config</Config>
+  <Config Name="Appdata" Target="/appdata" Default="/mnt/user/appdata/jupyterlab/config" Mode="rw" Description="Container Path: /appdata" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/jupyterlab/config</Config>
 </Container>
