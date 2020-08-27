@@ -25,7 +25,7 @@
   <Category>Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:8888]</WebUI>
   <TemplateURL/>
-  <Icon>https://media.githubusercontent.com/media/BGameiro2000/unraid-ca/master/jupyterlab/icon.png</Icon>
+  <Icon>https://raw.githubusercontent.com/BGameiro2000/unraid-ca/master/jupyterlab/icon.png</Icon>
   <ExtraParams>--env GITLAB_OMNIBUS_CONFIG="external_url 'http://unraid:9080/'"</ExtraParams>
   <PostArgs/>
   <CPUset/>
