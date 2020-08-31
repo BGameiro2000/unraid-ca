@@ -26,7 +26,7 @@
   <WebUI>http://[IP]:[PORT:8888]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/BGameiro2000/unraid-ca/master/jupyterlab/icon.png</Icon>
-  <ExtraParams>--env GITLAB_OMNIBUS_CONFIG="external_url 'http://unraid:9080/'"</ExtraParams>
+  <ExtraParams/>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1597689640</DateInstalled>
