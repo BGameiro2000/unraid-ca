@@ -39,6 +39,9 @@
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
   [b]/root/trilium-data[/b] Where Trilium should store logs, databases and configuration[br]&#xD;
   [b]/root/trilium-data/backup[/b] Where Trilium should store the backups[br]</Description>
+  <Changes>
+  [b]2020-09-24:[/b]Version 0.43.4 of trilium
+  </Changes>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
