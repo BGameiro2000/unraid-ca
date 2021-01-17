@@ -1,5 +1,13 @@
 <?xml version="1.0"?>
 <Container version="2">
+  <Changes>
+  [b]2021-01-17:[/b]Version 0.45.8 of trilium
+  [b]2020-12-12:[/b]Version 0.45.6 of trilium
+  [b]2020-11-12:[/b]Version 0.45.3 of trilium
+  [b]2020-11-03:[/b]Version 0.45.2 of trilium
+  [b]2020-10-11:[/b]Version 0.44.6 of trilium
+  [b]2020-09-24:[/b]Version 0.43.4 of trilium
+  </Changes>
   <Name>trilium</Name>
   <Repository>bgameiro/trilium</Repository>
   <Registry>https://hub.docker.com/r/zadam/trilium</Registry>
@@ -39,13 +47,6 @@
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
   [b]/root/trilium-data[/b] Where Trilium should store logs, databases and configuration[br]&#xD;
   [b]/root/trilium-data/backup[/b] Where Trilium should store the backups[br]</Description>
-  <Changes>
-  [b]2020-12-12:[/b]Version 0.45.6 of trilium
-  [b]2020-11-12:[/b]Version 0.45.3 of trilium
-  [b]2020-11-03:[/b]Version 0.45.2 of trilium
-  [b]2020-10-11:[/b]Version 0.44.6 of trilium
-  [b]2020-09-24:[/b]Version 0.43.4 of trilium
-  </Changes>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
