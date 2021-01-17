@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
+  <Changes>
+  [b]2021-01-17:[/b]Added pip and updated packages
+  </Changes>
   <Name>jupyterlab</Name>
   <Repository>bgameiro/arch-jupyterlab</Repository>
   <Registry>https://hub.docker.com/repository/docker/bgameiro/arch-jupyterlab</Registry>
