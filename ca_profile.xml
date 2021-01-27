@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://bgameiro.gitlab.io/cv/profile.jpeg</Icon>
+  <Profile>
+    Undergraduate Physicist Student and hobbyist self-hoster. Repository with some templates for applications that I use myself.
+  </Profile>
+  <WebPage>https://bgameiro.me/</WebPage>
+  <DonateText>If you like my work please consider Donating.</DonateText>
+  <DonateLink>https://bgameiro.me/page/donate</DonateLink>
+  <Forum>https://forums.unraid.net/topic/94979-trilium-docker/</Forum>
+</Maintainer>
