@@ -13,7 +13,7 @@
   <Category>Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:8888]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/BGameiro2000/unraid-ca/master/root/root.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/BGameiro2000/unraid-ca/master/root/icon.png</Icon>
+  <Icon>https://raw.githubusercontent.com/BGameiro2000/unraid-ca/master/root/logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
