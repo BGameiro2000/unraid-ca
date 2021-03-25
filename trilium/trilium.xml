@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Changes>
+  [b]2021-03-24:[/b]Version 0.46.6 of trilium - Correct Paths
   [b]2021-03-24:[/b]Version 0.46.6 of trilium
   [b]2021-02-11:[/b]Version 0.45.9 of trilium
   [b]2021-01-17:[/b]Version 0.45.8 of trilium
@@ -62,18 +63,18 @@
   <Data>
     <Volume>
       <HostDir/>
-      <ContainerDir>/root/trilium-data</ContainerDir>
+      <ContainerDir>/home/node/trilium-data</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
       <HostDir/>
-      <ContainerDir>/root/trilium-data/backup</ContainerDir>
+      <ContainerDir>/home/node/trilium-data/backup</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
   <Environment/>
   <Labels/>
   <Config Name="WebUI" Target="8080" Default="8080" Mode="tcp" Description="WebUI - Default 8888" Type="Port" Display="always-hide" Required="true" Mask="false">8888</Config>
-  <Config Name="Appdata" Target="/root/trilium-data" Default="/mnt/user/appdata/trilium" Mode="rw" Description="Container Path: /root/trilium-data" Type="Path" Display="advanced-hide" Required="true" Mask="false"/>
-  <Config Name="Backups" Target="/root/trilium-data/backup" Default="/mnt/user/appdata/trilium/backup" Mode="rw" Description="Container Path: /root/trilium-data/backup" Type="Path" Display="advanced-hide" Required="true" Mask="false"/>
+  <Config Name="Appdata" Target="/home/node/trilium-data" Default="/mnt/user/appdata/trilium" Mode="rw" Description="Container Path: /home/node/trilium-data" Type="Path" Display="advanced-hide" Required="true" Mask="false"/>
+  <Config Name="Backups" Target="/home/node/trilium-data/backup" Default="/mnt/user/appdata/trilium/backup" Mode="rw" Description="Container Path: /home/node/trilium-data/backup" Type="Path" Display="advanced-hide" Required="true" Mask="false"/>
 </Container>
