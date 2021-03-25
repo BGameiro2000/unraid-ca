@@ -28,8 +28,8 @@
   [b]Docker:[/b] https://hub.docker.com/r/zadam/trilium[br]&#xD;
   [br][br]&#xD;
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
-  [b]/root/trilium-data[/b] Where Trilium should store logs, databases and configuration[br]&#xD;
-  [b]/root/trilium-data/backup[/b] Where Trilium should store the backups[br]</Overview>
+  [b]/home/node/trilium-data[/b] Where Trilium should store logs, databases and configuration[br]&#xD;
+  [b]/home/node/trilium-data/backup[/b] Where Trilium should store the backups[br]</Overview>
   <Category>Productivity: Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <TemplateURL>https://github.com/BGameiro2000/unraid-ca/tree/master/trilium</TemplateURL>
@@ -48,8 +48,8 @@
   [b]Docker:[/b] https://hub.docker.com/repository/docker/bgameiro/trilium[br]&#xD;
   [br][br]&#xD;
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
-  [b]/root/trilium-data[/b] Where Trilium should store logs, databases and configuration[br]&#xD;
-  [b]/root/trilium-data/backup[/b] Where Trilium should store the backups[br]</Description>
+  [b]/home/node/trilium-data[/b] Where Trilium should store logs, databases and configuration[br]&#xD;
+  [b]/home/node/trilium-data/backup[/b] Where Trilium should store the backups[br]</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
