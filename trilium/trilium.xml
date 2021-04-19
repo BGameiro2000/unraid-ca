@@ -13,14 +13,7 @@
   [b]2020-09-24:[/b]Version 0.43.4 of trilium
   </Changes>
   <Name>trilium</Name>
-  <Branch>
-    <Repository>bgameiro/trilium</Repository>
-    <TagDescription>Tested before docker updates.</TagDescription>
-  </Branch>
-  <Branch>
-    <Repository>zadam/trilium</Repository>
-    <TagDescription>Latest stable version from zadam. Updated automatically without testing in Unraid.</TagDescription>
-  </Branch>
+  <Repository>bgameiro/trilium</Repository>
   <Registry>https://hub.docker.com/r/zadam/trilium</Registry>
   <Network>bridge</Network>
   <Shell>sh</Shell>
@@ -43,7 +36,6 @@
   <Icon>https://raw.githubusercontent.com/BGameiro2000/unraid-ca/master/trilium/icon.png</Icon>
   <ExtraParams/>
   <PostArgs/>
-  <CPUset/>
   <DateInstalled>1595356017</DateInstalled>
   <DonateText/>
   <DonateLink>https://bgameiro.me/page/donate</DonateLink>
