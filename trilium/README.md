@@ -8,7 +8,7 @@ This template allows the installation of the Trilium Notes Server as a docker co
 It contains the latest stable version as the docker tag `latest` isn't recommended from the main developer.
 
 This templates configures the host port as `8888` since the default container port `8080` is wildly used.
-There are also two path configuartions: the `/trilium-data` directory with the default `/mnt/user/appdata/trilium` and the optional path for `/trilium-data/backup`. In case the path for the backups isn't provided they will be present in `/mnt/user/appdata/trilium/backup`. This definition is useful in case you want to setup a backup utility from the unraid pool and not the cache (where the `appdata` is stored).
+There are also two path configuartions: the `/home/node/trilium-data` directory with the default `/mnt/user/appdata/trilium` and the optional path for `/home/node/trilium-data/backup`. In case the path for the backups isn't provided they will be present in `/mnt/user/appdata/trilium/backup`. This definition is useful in case you want to setup a backup utility from the unraid pool and not the cache (where the `appdata` is stored).
 
 ## About Trilium
 
