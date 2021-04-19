@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Changes>
-  [b]2021-04-20:[/b]Version 0.46.6 of PTS - Correct icon path
-  [b]2021-04-19:[/b]Version 0.46.6 of PTS - Application added
+  [b]2021-04-20:[/b]Version 10.2.1 of PTS - Correct version number
+  [b]2021-04-20:[/b]Version 10.2.1 of PTS - Correct icon path
+  [b]2021-04-19:[/b]Version 10.2.1 of PTS - Application added
   </Changes>
   <Name>Phoronix Test Suite</Name>
   <Repository>phoronix/pts</Repository>
