@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Changes>
+  [b]2021-04-19:[/b]Version 0.46.7 of trilium
   [b]2021-03-25:[/b]Version 0.46.6 of trilium - Correct Paths
   [b]2021-03-24:[/b]Version 0.46.6 of trilium
   [b]2021-02-11:[/b]Version 0.45.9 of trilium
@@ -15,7 +16,6 @@
   <Repository>bgameiro/trilium</Repository>
   <Registry>https://hub.docker.com/r/zadam/trilium</Registry>
   <Network>bridge</Network>
-  <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/94979-trilium-docker/</Support>
@@ -36,7 +36,6 @@
   <Icon>https://raw.githubusercontent.com/BGameiro2000/unraid-ca/master/trilium/icon.png</Icon>
   <ExtraParams/>
   <PostArgs/>
-  <CPUset/>
   <DateInstalled>1595356017</DateInstalled>
   <DonateText/>
   <DonateLink>https://bgameiro.me/page/donate</DonateLink>
