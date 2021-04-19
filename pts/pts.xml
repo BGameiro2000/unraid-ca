@@ -22,7 +22,7 @@
   [b]/var/lib/phoronix-test-suite/test-results[/b] Where PTS should store the test results[br]</Overview>
   <Category>Tools:Utilities</Category>
   <TemplateURL>https://github.com/BGameiro2000/unraid-ca/tree/master/pts</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/BGameiro2000/unraid-ca/master/pts/icon.png</Icon>
+  <Icon>https://raw.githubusercontent.com/BGameiro2000/unraid-ca/master/pts/logo.png</Icon>
   <ExtraParams>-it</ExtraParams>
   <PostArgs>/bin/bash</PostArgs>
   <DateInstalled>1618846543</DateInstalled>
