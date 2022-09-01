@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Changes>
+  [b]2022-09-01:[/b]Version 0.54.3 of trilium - Zadam's docker
   [b]2021-04-19:[/b]Version 0.46.7 of trilium
   [b]2021-03-25:[/b]Version 0.46.6 of trilium - Correct Paths
   [b]2021-03-24:[/b]Version 0.46.6 of trilium
@@ -13,7 +14,7 @@
   [b]2020-09-24:[/b]Version 0.43.4 of trilium
   </Changes>
   <Name>trilium</Name>
-  <Repository>bgameiro/trilium</Repository>
+  <Repository>zadam/trilium:0.54.3</Repository>
   <Registry>https://hub.docker.com/r/zadam/trilium</Registry>
   <Network>bridge</Network>
   <Shell>sh</Shell>
