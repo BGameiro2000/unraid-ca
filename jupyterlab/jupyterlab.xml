@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Changes>
+  [b]2023-02-22:[/b] Updated jupyterlab and added python and root packeges
   [b]2021-01-25:[/b] Updated jupyterlab to version 3.0
   [b]2021-01-17:[/b] Added pip and updated packages
   </Changes>
@@ -25,7 +26,7 @@
   [br][br]&#xD;
   [b][u][span style='color: #E80000;']Set Up[/span][/u][/b][br]&#xD;
   The logs contain a token needed for first login[br]&#xD;
-  Support for other languages will be added. For now, there is only the basic JupyterLab with Python and Markdown.[br]</Overview>
+  Includes several python data science libraries and CERN's ROOT for HEP.[br]</Overview>
   <Category>Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:8888]</WebUI>
   <TemplateURL/>
@@ -71,13 +72,6 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Environment>
-    <Variable>
-      <Value/>
-      <Name>PACKAGES</Name>
-      <Mode/>
-    </Variable>
-  </Environment>
   <Labels/>
   <Config Name="Notebooks" Target="/opt/app/data" Default="/mnt/user/appdata/jupyterlab/notebooks" Mode="rw" Description="Container Path: /opt/app/data" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Packages" Target="PACKAGES" Default="" Mode="" Description="Install Arch Packages to add functionalities." Type="Variable" Display="always" Required="false" Mask="false"/>
